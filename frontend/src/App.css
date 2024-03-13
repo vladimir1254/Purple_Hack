@@ -1,0 +1,125 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.button {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px; /* Пример фиксированной ширины для всех кнопок */
+  box-sizing: border-box; /* Добавляем box-sizing */
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+
+.file-upload-container {
+  margin-bottom: 20px; /* Пример стиля для отступа снизу */
+  display: flex; /* Использование flexbox для упорядочивания элементов */
+  align-items: center; /* Выравнивание элементов по центру */
+}
+
+.file-input {
+  padding: 10px; /* Пример стиля для добавления отступа вокруг элемента */
+  border: 2px solid #ccc; /* Пример стиля рамки */
+  border-radius: 5px; /* Пример стиля для закругления углов */
+  background-color: #f9f9f9; /* Пример стиля для цвета фона */
+  color: #333; /* Пример стиля для цвета текста */
+  font-size: 16px; /* Пример стиля для размера текста */
+  cursor: pointer; /* Пример стиля для изменения курсора при наведении */
+  flex-grow: 1; /* Растягивание элемента на всю доступную ширину */
+}
+
+/* Пример стиля при наведении курсора */
+.file-input:hover {
+  border-color: #666;
+}
+
+.file-upload-container {
+  display: flex;
+  align-items: center;
+}
+
+.file-input {
+  flex-grow: 1;
+  width:90%;
+}
+
+.button-container {
+  margin-top: 10px; /* Расстояние между полем ввода и кнопкой */
+}
+
+.button {
+  width: 100%; /* Ширина кнопки равна ширине поля ввода */
+}
+
+.file-upload-container {
+  display: flex;
+}
+
+.file-upload-component-wrapper {
+  margin-right: 20px; /* Пример отступа между компонентами */
+}
+
+/* Последний компонент не должен иметь правого отступа */
+.file-upload-component-wrapper:last-child {
+  margin-right: 0;
+}
+
+.new-prices-section {
+  border: 2px solid #ccc; /* Толщина и цвет рамки */
+  padding: 20px; /* Отступы внутри раздела */
+  margin-bottom: 20px; /* Отступ снизу для раздела "New prices" */
+  background-color: #f9f9f9; /* Цвет фона */
+  width: 55%;
+}
+
+.matrix-upload-section {
+  width: 55%;
+  border: 2px solid #ccc; /* Толщина и цвет рамки */
+  padding: 20px; /* Отступы внутри раздела */
+  background-color: #f9f9f9; /* Цвет фона */
+}
+
+
+.input-buttons-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-wrapper {
+  margin-bottom: 20px;
+
+  margin-right: 10px; /* Отступ между инпутами */
+
+}
+
+.input-wrapper label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-wrapper input {
+  width:90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.input-wrapper input.error {
+  border-color: #ff0000;
+}
